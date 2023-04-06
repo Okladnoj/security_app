@@ -1,0 +1,83 @@
+name: security_app
+description: A new Flutter project.
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=2.19.3 <3.0.0'
+
+dependencies:
+  auto_route: ^5.0.4
+  flutter_localizations:
+    sdk: flutter
+  dio: ^5.0.2
+  equatable: ^2.0.5
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^8.1.2
+  freezed_annotation: ^2.2.0
+  get_it: ^7.2.0
+  injectable: ^2.1.0
+  pretty_dio_logger: ^1.3.1
+  retrofit: ^4.0.1
+  shared_preferences: ^2.0.18
+  intl: ^0.17.0
+  flutter_svg: ^2.0.4
+  firebase_core: ^2.9.0
+  cloud_firestore: ^4.5.0
+  firebase_auth: ^4.4.0
+  google_sign_in: ^6.0.2
+  translit: ^2.0.1
+  rxdart: ^0.27.7
+  hive_flutter:
+    git:
+      url: https://github.com/yura2000/hive.git
+      ref: master
+      path: hive_flutter/
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  auto_route_generator: ^5.0.1              
+  build_runner: ^2.1.8
+  injectable_generator: ^2.1.3
+  json_serializable: ^6.3.2
+  flutter_gen_runner: ^5.1.0+1
+  change_app_package_name: ^1.1.0
+  flutter_launcher_icons: ^0.11.0
+  freezed: ^2.3.2
+  retrofit_generator: ^6.0.0+1
+  flutter_native_splash: ^2.2.16
+  hive_generator:
+    git:
+      url: https://github.com/yura2000/hive.git
+      ref: master
+      path: hive_generator/
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/svg/
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: fonts/Poppins-Thin.ttf
+          weight: 100
+        - asset: fonts/Poppins-ExtraLight.ttf
+          weight: 200
+        - asset: fonts/Poppins-Light.ttf
+          weight: 300
+        - asset: fonts/Poppins-Regular.ttf
+          weight: 400
+        - asset: fonts/Poppins-Medium.ttf
+          weight: 500
+        - asset: fonts/Poppins-SemiBold.ttf
+          weight: 600
+        - asset: fonts/Poppins-Bold.ttf
+          weight: 700
+        - asset: fonts/Poppins-ExtraBold.ttf
+          weight: 800
+        - asset: fonts/Poppins-Black.ttf
+          weight: 900
